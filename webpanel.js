@@ -9,7 +9,7 @@ const axios = require("axios");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const BOT_API_URL = process.env.BOT_API_URL || "https://your-bot-server.com";
+const BOT_API_URL = process.env.BOT_API_URL || "https://my-panel.sachiya.online";
 const BOT_API_KEY = process.env.BOT_API_KEY || "dora-crasher-secret-key";
 
 const USERS_FILE = path.join(__dirname, "webusers.json");
